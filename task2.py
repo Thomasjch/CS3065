@@ -4,6 +4,7 @@ import sklearn.preprocessing
 import sklearn.decomposition
 import sklearn.model_selection
 from sklearn.preprocessing import MinMaxScaler
+from sklearn.decomposition import PCA
 
 def train_test_split(  dataset: pd.DataFrame,
                        target_col: str, 
